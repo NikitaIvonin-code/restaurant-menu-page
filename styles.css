@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('../assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+font-family: 'young-serif';
+src: url('../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    background-color: hsl(30, 54%, 90%)
+}
+img {
+    width: 600px; 
+    padding: 25px;
+    border-radius: 45px;
+    display: block;
+    margin-top: 50px;
+}
+.name {
+    margin-top: -5px;
+    margin-left: 25px;
+    font-size: 40px;
+    font-family: 'young-serif', sans-serif;
+}
+div {
+    width: 650px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+p {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -5px;
+    font-family: 'outfit', sans-serif;
+}
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    height: 190px; 
+}
+.preparation-name {
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px;
+    padding-top: 30px  
+}
+.preparation-list li::marker {
+    color: hsl(332, 51%, 32%);
+}
+ul li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'outfit', sans-serif;
+}
+.ingredients-name {
+    color: hsl(14, 45%, 36%);
+    margin-left: 25px;
+    font-size: 28px;
+    padding-top: 10px;
+}
+.ingredients-list {
+    margin-left: 15px;
+}
+.ingredients-list li::marker {
+    color: hsl(14, 45%, 36%);
+
+}
+hr {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+.instructions-name {
+    color: hsl(14, 45%, 36%);
+    margin-left: 25px;
+    font-size: 28px;
+    padding-top: 10px;
+}
+.instructions-list {
+    margin-left: 17px;
+    margin-right: 20px;
+}
+.instructions-list li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: 20px;  
+}
+ol li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'outfit', sans-serif;
+}
+.nutrition-name {
+    color: hsl(14, 45%, 36%);
+    margin-left: 25px;
+    font-size: 28px;
+    padding-top: 10px;
+}
+.nutrition-hr {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.nutrition-item {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    width: 100%;
+}
+.nutrition-label {
+width: 30%;
+font-family: 'outfit', sans-serif;
+}
+.nutrition-value {
+color: #8B4513;
+width: 30%;
+text-align: left;
+font-weight: bold;
+font-family: 'outfit', sans-serif;
+}
+
+
+
+
+
+  
+  
+  
+  
